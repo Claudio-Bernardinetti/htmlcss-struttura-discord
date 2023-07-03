@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*#debug, header  {
+    
+}*/
+
+:root {
+    --bool-section: var(#f9f9f9);
+    --bool-header: var(#d8d9db);
+    --bool-section-space: var(#bcbcbe);
+    --bool-row: var(#abaebd);
+    --bool-row-header: var(#d9817d);
+    --bool-section-header: var(#95a8e3);
+    --bool-container: var(#fbdb9e);
+    --bool-col: var(#8fe2aa);
+    --bool-card: var(#85c0c6);
+    --bool-footer-container: var(#4574fe);
+}
