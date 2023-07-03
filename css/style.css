@@ -18,7 +18,7 @@
 }
 /*Utilitis*/
 
-#debug, header .flex_container   {
+header .flex_container   {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     height: 100px; 
 }
 
-#bebug, .flex_row {
+.flex_row {
     display: flex;
     justify-content: space-between;
     background-color: var(--bool-row-header);
@@ -34,17 +34,18 @@
     height: 50%;
 }
 
-#debug, header  .flex_col2 {
+header  .flex_col2 {
     width: 50%;
     border-style: solid;
 }
 
-#debug, header .flex_col1 .flex_col3 {
+header .flex_col1 .flex_col3 {
     width: 25%;
     border-style: solid;
 }
 /*Header First section*/
-#debug, #first-s .flex_section {
+
+#first-s .flex_section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,20 +54,20 @@
     padding-bottom: 2rem;
 }
 
-#debug, #first-s .flex_section .flex_container1 {
+#first-s .flex_section .flex_container1 {
     width: 70%;
     height: 120px;
     background-color: var(--bool-row);
 }
 /*First section and Header*/
 
-#debug, #second-s {
+#second-s {
     background-color: var(--bool-section);
     height: 300px;
     padding-top: 1rem;
 }
 
-#debug, #second-s .flex_container2 {
+#second-s .flex_container2 {
     
     width: 80%;
     height: 200px;
@@ -74,7 +75,7 @@
     background-color: var(--bool-container); 
 }
 
-#debug, #second-s .flex_container2 .flex_row {
+#second-s .flex_container2 .flex_row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -83,7 +84,7 @@
     height: 80%;
 }
 
-#debug, #second-s .flex_container2 .flex_row .flex_col {
+#second-s .flex_container2 .flex_row .flex_col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -93,7 +94,7 @@
     background-color: var(--bool-col);
 }
 
-#debug, #second-s .flex_container2 .flex_row .flex_col .flex_card1 {
+#second-s .flex_container2 .flex_row .flex_col .flex_card1 {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -102,7 +103,7 @@
     background-color: var(--bool-card);
 }
 
-#debug, #second-s .flex_container2 .flex_row .flex_col .flex_card2 {
+#second-s .flex_container2 .flex_row .flex_col .flex_card2 {
     display: flex;
     flex-direction: row;
     width: 40%;
@@ -110,14 +111,15 @@
     margin: 1.5rem 1rem;
     background-color: var(--bool-card);
 }
-/*Second section and Header*/
-#debug, #third-s {
+/*Second section*/
+
+#third-s {
     background-color: var(--bool-section);
     height: 300px;
     padding-top: 1rem;
 }
 
-#debug, #third-s .flex_container3 {
+#third-s .flex_container3 {
     
     width: 80%;
     height: 200px;
@@ -125,7 +127,7 @@
     background-color: var(--bool-container); 
 }
 
-#debug, #third-s .flex_container3 .flex_row {
+#third-s .flex_container3 .flex_row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -134,7 +136,7 @@
     height: 80%;
 }
 
-#debug, #third-s .flex_container3 .flex_row .flex_col {
+#third-s .flex_container3 .flex_row .flex_col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -144,7 +146,7 @@
     background-color: var(--bool-col);
 }
 
-#debug, #third-s .flex_container3 .flex_row .flex_col .flex_card1 {
+#third-s .flex_container3 .flex_row .flex_col .flex_card1 {
     display: flex;
     flex-direction: row;
     width: 40%;
@@ -153,7 +155,7 @@
     background-color: var(--bool-card);
 }
 
-#debug, #third-s .flex_container3 .flex_row .flex_col .flex_card2 {
+#third-s .flex_container3 .flex_row .flex_col .flex_card2 {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -161,15 +163,15 @@
     margin: 1.5rem 1rem;
     background-color: var(--bool-card);
 }
-/*Third section and Header*/
+/*Third section*/
 
-#debug, #fourth-s {
+#fourth-s {
     background-color: var(--bool-section);
     height: 300px;
     padding-top: 1rem;
 }
 
-#debug, #fourth-s .flex_container4 {
+#fourth-s .flex_container4 {
     
     width: 80%;
     height: 200px;
@@ -177,7 +179,7 @@
     background-color: var(--bool-container); 
 }
 
-#debug, #fourth-s .flex_container4 .flex_row {
+#fourth-s .flex_container4 .flex_row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -186,7 +188,7 @@
     height: 80%;
 }
 
-#debug, #fourth-s .flex_container4 .flex_row .flex_col {
+#fourth-s .flex_container4 .flex_row .flex_col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -196,7 +198,7 @@
     background-color: var(--bool-col);
 }
 
-#debug, #fourth-s .flex_container4 .flex_row .flex_col .flex_card1 {
+#fourth-s .flex_container4 .flex_row .flex_col .flex_card1 {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -205,7 +207,7 @@
     background-color: var(--bool-card);
 }
 
-#debug, #fourth-s .flex_container4 .flex_row .flex_col .flex_card2 {
+#fourth-s .flex_container4 .flex_row .flex_col .flex_card2 {
     display: flex;
     flex-direction: row;
     width: 40%;
@@ -213,41 +215,40 @@
     margin: 1.5rem 1rem;
     background-color: var(--bool-card);
 }
-/*Fourth section and Header*/
+/*Fourth section*/
 
-#debug, #fifth-s {
+#fifth-s {
     height: 400px;
     background-color: var(--bool-section);
 }
 
-#debug, #fifth-s .flex_container5 {
+#fifth-s .flex_container5 {
     width: 80%;
     height: 300px;
     margin: auto;
     background-color: var(--bool-container); 
 }
-/*Fifth section and Header*/
+/*Fifth section*/
 
-#debug, footer {
+footer {
     height: 250px;
     background-color: var(--bool-footer-container);
 }
 
-#debug, footer .flex_container6 {
+footer .flex_container6 {
     width: 80%;
     height: 200px;
-    margin: auto;
-    
+    margin: auto; 
     background-color: var(--bool-container);
 }
 
-#debug, footer .flex_container6 .flex_rowt{
+footer .flex_container6 .flex_rowt{
     display: flex;
     height: 60%;
     padding-top: 1rem;
     background-color: var(--bool-row);
 }
-#debug, footer .flex_container6 .flex_rowt .flex_col1 {
+footer .flex_container6 .flex_rowt .flex_col1 {
     display: flex;
     align-items: flex-start;
     width: 30%;
@@ -255,7 +256,7 @@
     margin-right: 0.5rem;
     background-color: var(--bool-col);
 }
-#debug, footer .flex_container6 .flex_rowt .flex_col2 {
+footer .flex_container6 .flex_rowt .flex_col2 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -263,7 +264,7 @@
     margin-right: 0.5rem;
     background-color: var(--bool-container);
 }
-#debug, footer .flex_container6 .flex_rowt .flex_col3 {
+footer .flex_container6 .flex_rowt .flex_col3 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -271,7 +272,7 @@
     margin-right: 0.5rem;
     background-color: var(--bool-container);
 }
-#debug, footer .flex_container6 .flex_rowt .flex_col4 {
+footer .flex_container6 .flex_rowt .flex_col4 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -279,7 +280,7 @@
     margin-right: 0.5rem;
     background-color: var(--bool-container);
 }
-#debug, footer .flex_container6 .flex_rowt .flex_col5 {
+footer .flex_container6 .flex_rowt .flex_col5 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -289,3 +290,22 @@
 }
 /*Footer Top*/
 
+footer .flex_container6 .flex_rowb{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    margin-top: 0.7rem;
+    padding: 0.3rem 0;
+    background-color: var(--bool-row);
+}
+
+footer .flex_container6 .flex_rowb .flex_col1 {
+    width: 20%;
+    background-color: var(--bool-container);
+}
+
+footer .flex_container6 .flex_rowb .flex_col2 {
+    width: 20%;
+    background-color: var(--bool-container);
+}
+/*Footer Bottom*/
