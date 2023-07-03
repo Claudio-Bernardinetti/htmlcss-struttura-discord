@@ -4,19 +4,60 @@
     box-sizing: border-box;
 }
 
-/*#debug, header  {
-    
-}*/
-
 :root {
-    --bool-section: var(#f9f9f9);
-    --bool-header: var(#d8d9db);
-    --bool-section-space: var(#bcbcbe);
-    --bool-row: var(#abaebd);
-    --bool-row-header: var(#d9817d);
-    --bool-section-header: var(#95a8e3);
-    --bool-container: var(#fbdb9e);
-    --bool-col: var(#8fe2aa);
-    --bool-card: var(#85c0c6);
-    --bool-footer-container: var(#4574fe);
+    --bool-section: #f9f9f9;
+    --bool-header: #d8d9db;
+    --bool-section-space: #bcbcbe;
+    --bool-row: #abaebd;
+    --bool-row-header: #d9817d;
+    --bool-section-header: #95a8e3;
+    --bool-container: #fbdb9e;
+    --bool-col: #8fe2aa;
+    --bool-card: #85c0c6;
+    --bool-footer-container: #4574fe;
 }
+/*Utilitis*/
+
+#debug, header .flex_container   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bool-header);
+    height: 100px; 
+}
+
+#bebug, .flex_row {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bool-row-header);
+    width: 80%;
+    height: 50%;
+}
+
+#debug, header  .flex_col2 {
+    width: 50%;
+    border-style: solid;
+}
+
+#debug, header .flex_col1, .flex_col3 {
+    width: 25%;
+    border-style: solid;
+}
+/*Header First section*/
+#debug, #first-s .flex_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bool-section-header);
+    height: 200px;
+    padding-bottom: 2rem;
+}
+
+#debug, #first-s .flex_section .flex_container {
+    width: 70%;
+    height: 120px;
+    background-color: var(--bool-row);
+}
+/*First section and Header*/
+
+
