@@ -39,7 +39,7 @@
     border-style: solid;
 }
 
-#debug, header .flex_col1, .flex_col3 {
+#debug, header .flex_col1 .flex_col3 {
     width: 25%;
     border-style: solid;
 }
@@ -223,7 +223,69 @@
 #debug, #fifth-s .flex_container5 {
     width: 80%;
     height: 300px;
-    margin: auto
-    ;
+    margin: auto;
     background-color: var(--bool-container); 
 }
+/*Fifth section and Header*/
+
+#debug, footer {
+    height: 250px;
+    background-color: var(--bool-footer-container);
+}
+
+#debug, footer .flex_container6 {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    
+    background-color: var(--bool-container);
+}
+
+#debug, footer .flex_container6 .flex_rowt{
+    display: flex;
+    height: 60%;
+    padding-top: 1rem;
+    background-color: var(--bool-row);
+}
+#debug, footer .flex_container6 .flex_rowt .flex_col1 {
+    display: flex;
+    align-items: flex-start;
+    width: 30%;
+    height: 80%;
+    margin-right: 0.5rem;
+    background-color: var(--bool-col);
+}
+#debug, footer .flex_container6 .flex_rowt .flex_col2 {
+    display: flex;
+    align-items: flex-start;
+    width: calc(100% /5);
+    height: 80%;
+    margin-right: 0.5rem;
+    background-color: var(--bool-container);
+}
+#debug, footer .flex_container6 .flex_rowt .flex_col3 {
+    display: flex;
+    align-items: flex-start;
+    width: calc(100% /5);
+    height: 80%;
+    margin-right: 0.5rem;
+    background-color: var(--bool-container);
+}
+#debug, footer .flex_container6 .flex_rowt .flex_col4 {
+    display: flex;
+    align-items: flex-start;
+    width: calc(100% /5);
+    height: 80%;
+    margin-right: 0.5rem;
+    background-color: var(--bool-container);
+}
+#debug, footer .flex_container6 .flex_rowt .flex_col5 {
+    display: flex;
+    align-items: flex-start;
+    width: calc(100% /5);
+    height: 80%;
+    margin-right: 0.5rem;
+    background-color: var(--bool-container);
+}
+/*Footer Top*/
+
