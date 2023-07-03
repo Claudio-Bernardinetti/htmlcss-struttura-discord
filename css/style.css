@@ -53,11 +53,177 @@
     padding-bottom: 2rem;
 }
 
-#debug, #first-s .flex_section .flex_container {
+#debug, #first-s .flex_section .flex_container1 {
     width: 70%;
     height: 120px;
     background-color: var(--bool-row);
 }
 /*First section and Header*/
 
+#debug, #second-s {
+    background-color: var(--bool-section);
+    height: 300px;
+    padding-top: 1rem;
+}
 
+#debug, #second-s .flex_container2 {
+    
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-color: var(--bool-container); 
+}
+
+#debug, #second-s .flex_container2 .flex_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--bool-row);
+    width: 100%;
+    height: 80%;
+}
+
+#debug, #second-s .flex_container2 .flex_row .flex_col {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 75%;
+    padding: auto;
+    background-color: var(--bool-col);
+}
+
+#debug, #second-s .flex_container2 .flex_row .flex_col .flex_card1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 60%;
+    margin-top: 1.5rem;
+    background-color: var(--bool-card);
+}
+
+#debug, #second-s .flex_container2 .flex_row .flex_col .flex_card2 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 60%;
+    margin: 1.5rem 1rem;
+    background-color: var(--bool-card);
+}
+/*Second section and Header*/
+#debug, #third-s {
+    background-color: var(--bool-section);
+    height: 300px;
+    padding-top: 1rem;
+}
+
+#debug, #third-s .flex_container3 {
+    
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-color: var(--bool-container); 
+}
+
+#debug, #third-s .flex_container3 .flex_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--bool-row);
+    width: 100%;
+    height: 80%;
+}
+
+#debug, #third-s .flex_container3 .flex_row .flex_col {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 75%;
+    padding: auto;
+    background-color: var(--bool-col);
+}
+
+#debug, #third-s .flex_container3 .flex_row .flex_col .flex_card1 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 60%;
+    margin-top: 1.5rem;
+    background-color: var(--bool-card);
+}
+
+#debug, #third-s .flex_container3 .flex_row .flex_col .flex_card2 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 60%;
+    margin: 1.5rem 1rem;
+    background-color: var(--bool-card);
+}
+/*Third section and Header*/
+
+#debug, #fourth-s {
+    background-color: var(--bool-section);
+    height: 300px;
+    padding-top: 1rem;
+}
+
+#debug, #fourth-s .flex_container4 {
+    
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-color: var(--bool-container); 
+}
+
+#debug, #fourth-s .flex_container4 .flex_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--bool-row);
+    width: 100%;
+    height: 80%;
+}
+
+#debug, #fourth-s .flex_container4 .flex_row .flex_col {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 75%;
+    padding: auto;
+    background-color: var(--bool-col);
+}
+
+#debug, #fourth-s .flex_container4 .flex_row .flex_col .flex_card1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 60%;
+    margin-top: 1.5rem;
+    background-color: var(--bool-card);
+}
+
+#debug, #fourth-s .flex_container4 .flex_row .flex_col .flex_card2 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 60%;
+    margin: 1.5rem 1rem;
+    background-color: var(--bool-card);
+}
+/*Fourth section and Header*/
+
+#debug, #fifth-s {
+    height: 400px;
+    background-color: var(--bool-section);
+}
+
+#debug, #fifth-s .flex_container5 {
+    width: 80%;
+    height: 300px;
+    margin: auto
+    ;
+    background-color: var(--bool-container); 
+}
