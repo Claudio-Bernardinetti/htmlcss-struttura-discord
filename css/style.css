@@ -34,7 +34,7 @@ header .flex_container   {
     height: 50%;
 }
 
-header  .flex_col2 {
+header .flex_col2 {
     width: 50%;
     border-style: solid;
 }
@@ -75,7 +75,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-container); 
 }
 
-#second-s .flex_container2 .flex_row {
+#second-s .flex_row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -84,7 +84,7 @@ header .flex_col1 .flex_col3 {
     height: 80%;
 }
 
-#second-s .flex_container2 .flex_row .flex_col {
+#second-s .flex_row .flex_col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -94,7 +94,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-col);
 }
 
-#second-s .flex_container2 .flex_row .flex_col .flex_card1 {
+#second-s .flex_row .flex_card1 {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -103,7 +103,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-card);
 }
 
-#second-s .flex_container2 .flex_row .flex_col .flex_card2 {
+#second-s .flex_row .flex_card2 {
     display: flex;
     flex-direction: row;
     width: 40%;
@@ -127,7 +127,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-container); 
 }
 
-#third-s .flex_container3 .flex_row {
+#third-s .flex_row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -136,7 +136,7 @@ header .flex_col1 .flex_col3 {
     height: 80%;
 }
 
-#third-s .flex_container3 .flex_row .flex_col {
+#third-s .flex_col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -146,7 +146,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-col);
 }
 
-#third-s .flex_container3 .flex_row .flex_col .flex_card1 {
+#third-s .flex_card1 {
     display: flex;
     flex-direction: row;
     width: 40%;
@@ -155,7 +155,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-card);
 }
 
-#third-s .flex_container3 .flex_row .flex_col .flex_card2 {
+#third-s .flex_card2 {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -179,7 +179,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-container); 
 }
 
-#fourth-s .flex_container4 .flex_row {
+#fourth-s .flex_row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -188,7 +188,7 @@ header .flex_col1 .flex_col3 {
     height: 80%;
 }
 
-#fourth-s .flex_container4 .flex_row .flex_col {
+#fourth-s .flex_col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -198,7 +198,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-col);
 }
 
-#fourth-s .flex_container4 .flex_row .flex_col .flex_card1 {
+#fourth-s .flex_card1 {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -207,7 +207,7 @@ header .flex_col1 .flex_col3 {
     background-color: var(--bool-card);
 }
 
-#fourth-s .flex_container4 .flex_row .flex_col .flex_card2 {
+#fourth-s .flex_card2 {
     display: flex;
     flex-direction: row;
     width: 40%;
@@ -242,13 +242,13 @@ footer .flex_container6 {
     background-color: var(--bool-container);
 }
 
-footer .flex_container6 .flex_rowt{
+footer .flex_rowt{
     display: flex;
     height: 60%;
     padding-top: 1rem;
     background-color: var(--bool-row);
 }
-footer .flex_container6 .flex_rowt .flex_col1 {
+footer .flex_rowt .flex_col1 {
     display: flex;
     align-items: flex-start;
     width: 30%;
@@ -256,7 +256,7 @@ footer .flex_container6 .flex_rowt .flex_col1 {
     margin-right: 0.5rem;
     background-color: var(--bool-col);
 }
-footer .flex_container6 .flex_rowt .flex_col2 {
+footer .flex_rowt .flex_col2 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -264,7 +264,7 @@ footer .flex_container6 .flex_rowt .flex_col2 {
     margin-right: 0.5rem;
     background-color: var(--bool-container);
 }
-footer .flex_container6 .flex_rowt .flex_col3 {
+footer .flex_rowt .flex_col3 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -272,7 +272,7 @@ footer .flex_container6 .flex_rowt .flex_col3 {
     margin-right: 0.5rem;
     background-color: var(--bool-container);
 }
-footer .flex_container6 .flex_rowt .flex_col4 {
+footer .flex_rowt .flex_col4 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -280,7 +280,7 @@ footer .flex_container6 .flex_rowt .flex_col4 {
     margin-right: 0.5rem;
     background-color: var(--bool-container);
 }
-footer .flex_container6 .flex_rowt .flex_col5 {
+footer .flex_rowt .flex_col5 {
     display: flex;
     align-items: flex-start;
     width: calc(100% /5);
@@ -290,7 +290,7 @@ footer .flex_container6 .flex_rowt .flex_col5 {
 }
 /*Footer Top*/
 
-footer .flex_container6 .flex_rowb{
+footer .flex_rowb{
     display: flex;
     justify-content: space-between;
     height: 20%;
@@ -299,12 +299,12 @@ footer .flex_container6 .flex_rowb{
     background-color: var(--bool-row);
 }
 
-footer .flex_container6 .flex_rowb .flex_col1 {
+footer .flex_rowb .flex_col1 {
     width: 20%;
     background-color: var(--bool-container);
 }
 
-footer .flex_container6 .flex_rowb .flex_col2 {
+footer .flex_rowb .flex_col2 {
     width: 20%;
     background-color: var(--bool-container);
 }
